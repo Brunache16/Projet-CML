@@ -1,0 +1,33 @@
+<html>
+
+<head>
+
+<title>Canvas</title>
+
+</head>
+<body>
+
+    <canvas id="mon_canavas" width="850px" height="850px" >
+
+    </canvas>
+
+    <script type="text/javascript">
+
+    var c = document.getElementById("mon_canavas");
+    var ctx = c.getContext("2d");
+    
+
+
+    ctx.beginPath();
+    ctx.moveTo(350,350);
+    ctx.lineTo(500,350);
+    ctx.lineTo(500,500);
+    ctx.lineTo(350,500);
+    ctx.lineTo(350,350);
+    ctx.closePath();
+    ctx.stroke();
+
+
+    </script>
+
+</body>
