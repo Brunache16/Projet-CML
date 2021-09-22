@@ -1,11 +1,14 @@
 -----Groupe Humanoide 2.0-------
        
  Preparer par:
+ 
        BRUNACHE Kervens
-       LOUIS Jacques Herdy
+	   
+       LOUIS Jacques Erdy
+	   
        LOUIS Jean Pothensky
 
-    Presenter a : BIEN-AIME Rony
+    Presenter a : Ing: BIEN-AIME Rony
 
 
 
