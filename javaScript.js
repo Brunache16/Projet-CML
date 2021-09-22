@@ -61,22 +61,3 @@ var c = document.getElementById("mon_canavas");
         ctx.closePath();
         ctx.fill();
 
-
-
-         ctx.beginPath();
-        ctx.moveTo(400,480);
-        ctx.lineTo(350,430);
-        ctx.lineTo(300,480);
-        ctx.lineTo(400,480);
-        ctx.stroke();
-        ctx.fillStyle="#beefff";
-        ctx.closePath();
-        ctx.fill();
-  ctx.beginPath();
-        ctx.rect(350,430,0,51);
-        ctx.stroke();
-        ctx.fillStyle="#beefff";
-        ctx.closePath();
-        ctx.fill();
-                      
-      
