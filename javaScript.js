@@ -16,6 +16,21 @@ ctx.moveTo(400,390);
          ctx.fill();
         ctx.closePath();
 
+        ctx.beginPath();
+         ctx.moveTo(390,365);
+         ctx.lineTo(440,365);
+         ctx.lineTo(440,355);
+         ctx.lineTo(390,355);
+         ctx.lineTo(390,365);
+         ctx.lineWidth=3;
+         ctx.stroke();
+         ctx.fillStyle="white";
+         //ctx.strokeStyle="#000";
+         ctx.strokeStyle='#000';
+         ctx.fillStyle='#6259f9';
+         ctx.fill();
+        ctx.closePath();
+
 
        
          
