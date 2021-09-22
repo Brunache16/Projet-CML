@@ -23,7 +23,7 @@ var c = document.getElementById("mon_canavas");
          ctx.strokeStyle="bleu";
          ctx.fill();
 
-          ctx.beginPath();
+        ctx.beginPath();
         ctx.rect(350,430,0,51);
         ctx.stroke();
         ctx.fillStyle="#beefff";
@@ -56,6 +56,24 @@ var c = document.getElementById("mon_canavas");
                       
         ctx.beginPath();
         ctx.rect(430,560,50,100);
+        ctx.stroke();
+        ctx.fillStyle="#beefff";
+        ctx.closePath();
+        ctx.fill();
+
+
+
+         ctx.beginPath();
+        ctx.moveTo(400,480);
+        ctx.lineTo(350,430);
+        ctx.lineTo(300,480);
+        ctx.lineTo(400,480);
+        ctx.stroke();
+        ctx.fillStyle="#beefff";
+        ctx.closePath();
+        ctx.fill();
+  ctx.beginPath();
+        ctx.rect(350,430,0,51);
         ctx.stroke();
         ctx.fillStyle="#beefff";
         ctx.closePath();
