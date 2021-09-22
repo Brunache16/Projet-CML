@@ -31,6 +31,21 @@ ctx.moveTo(400,390);
          ctx.fill();
         ctx.closePath();
 
+        ctx.beginPath();
+         ctx.moveTo(535,500);
+         ctx.lineTo(350,375);
+         ctx.lineTo(159,503);
+         ctx.lineTo(150,490);
+         ctx.lineTo(350,355);
+         ctx.lineTo(543,488);
+         ctx.lineTo(535,500);
+         ctx.lineWidth=3;
+         ctx.stroke();
+        ctx.fillStyle="#6259f9";
+         ctx.strokeStyle="#000";
+         ctx.fill();
+            ctx.closePath();
+
 
        
          
