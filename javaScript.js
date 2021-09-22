@@ -49,7 +49,8 @@ ctx.moveTo(400,390);
 
        
          
-
+            
+    
         
          ctx.beginPath();
          ctx.moveTo(350,400);
@@ -65,28 +66,41 @@ ctx.moveTo(400,390);
          ctx.strokeStyle="bleu";
          ctx.fill();
 
-        ctx.beginPath();
-        ctx.rect(350,430,0,51);
-        ctx.stroke();
+           //Trianle pour tracer la maison
+           ctx.beginPath();
+           ctx.moveTo(400,480);
+           ctx.lineTo(350,430);
+           ctx.lineTo(300,480);
+           ctx.lineTo(400,480);
+           ctx.stroke();
         ctx.fillStyle="#beefff";
-        ctx.closePath();
-        ctx.fill();
-                      
-
-       //Ligne des triangles horizontal
-        ctx.beginPath();
-        ctx.rect(335,445,31,0);
-        ctx.stroke();
-        ctx.fillStyle="#beefff";
-        ctx.closePath();
-        ctx.fill();
-                                      
-        ctx.beginPath();
-        ctx.moveTo(500,380);
-        ctx.stroke();
-        ctx.fillStyle="#beefff";
-        ctx.closePath();
-        ctx.fill();
+           ctx.closePath();
+           ctx.fill();
+                         
+           //Ligne pour les triangles en ver
+           ctx.beginPath();
+           ctx.rect(350,430,0,51);
+           ctx.stroke();
+           ctx.fillStyle="#fff";
+           ctx.closePath();
+           ctx.fill();
+                         
+   
+          //Ligne des triangles horizontal
+           ctx.beginPath();
+           ctx.rect(335,445,31,0);
+           ctx.stroke();
+           ctx.fillStyle="#fff";
+           ctx.closePath();
+           ctx.fill();
+                         
+                         
+           ctx.beginPath();
+           ctx.moveTo(500,380);
+           ctx.stroke();
+           ctx.fillStyle="#fff";
+           ctx.closePath();
+           ctx.fill();
                                    
      //les carrees de la maison 
         ctx.beginPath();
