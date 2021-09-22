@@ -60,5 +60,28 @@ var c = document.getElementById("mon_canavas");
         ctx.fillStyle="#beefff";
         ctx.closePath();
         ctx.fill();
+
+        ctx.beginPath();
+        ctx.rect(230,560,50,100);
+        ctx.stroke();
+        ctx.fillStyle="#beefff";
+        ctx.closePath();
+        ctx.fill();
+                      
+        ctx.beginPath();
+        ctx.rect(355,560,0,100);
+        ctx.stroke();
+        ctx.fillStyle="#beefff";
+        ctx.closePath();
+        ctx.fill();
+                      
+        ctx.beginPath();
+        ctx.rect(320,650,69,10);
+        ctx.stroke();
+        ctx.fillStyle="#ffbe6a";
+        ctx.closePath();
+        ctx.fill();
+        ctx.closePath();
+        ctx.stroke();
                       
       
