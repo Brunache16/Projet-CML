@@ -22,4 +22,43 @@ var c = document.getElementById("mon_canavas");
          ctx.closePath();
          ctx.strokeStyle="bleu";
          ctx.fill();
+
+          ctx.beginPath();
+        ctx.rect(350,430,0,51);
+        ctx.stroke();
+        ctx.fillStyle="#beefff";
+        ctx.closePath();
+        ctx.fill();
+                      
+
+       //Ligne des triangles horizontal
+        ctx.beginPath();
+        ctx.rect(335,445,31,0);
+        ctx.stroke();
+        ctx.fillStyle="#beefff";
+        ctx.closePath();
+        ctx.fill();
+                                      
+        ctx.beginPath();
+        ctx.moveTo(500,380);
+        ctx.stroke();
+        ctx.fillStyle="#beefff";
+        ctx.closePath();
+        ctx.fill();
+                                   
+     //les carrees de la maison 
+        ctx.beginPath();
+        ctx.rect(320,560,70,100);
+        ctx.stroke();
+        ctx.fillStyle="#beefff";
+        ctx.closePath();
+        ctx.fill();
+                      
+        ctx.beginPath();
+        ctx.rect(430,560,50,100);
+        ctx.stroke();
+        ctx.fillStyle="#beefff";
+        ctx.closePath();
+        ctx.fill();
+                      
       
