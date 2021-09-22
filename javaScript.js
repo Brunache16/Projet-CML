@@ -3,6 +3,18 @@ var c = document.getElementById("mon_canavas");
 
 
 
+ctx.moveTo(400,390);
+         ctx.lineTo(400,365);
+         ctx.lineTo(430,365);
+         ctx.lineTo(430,410);
+         ctx.lineWidth=3;
+         ctx.stroke();
+         ctx.fillStyle="white";
+         //ctx.strokeStyle="#000";
+         ctx.strokeStyle='#000';
+         ctx.fillStyle='#ffbe6a';
+         ctx.fill();
+        ctx.closePath();
 
 
        
